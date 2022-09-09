@@ -5,5 +5,6 @@
 4-print_alphabt.c : Print all the alphabet in small letters except q and e
 5-print_numbers.c : Prints all single digit numbers of base 10 starting from 0, followed by a new line.
 6-print_numberz.c : Prints all single digit numbers of base 10 starting from 0, followed by a new line. usinf only putchar
+7-print_tebahpla.c : Prints the lowercase alphabet in reverse, followed by a new line.
  
 
