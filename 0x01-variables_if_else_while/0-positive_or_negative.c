@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
 *main-main block
 *Return: Always 0 (success)
 */
