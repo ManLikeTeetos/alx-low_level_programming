@@ -17,9 +17,9 @@ for (num = 0; num < 10; num++)
 	{
 		for(num3 = num2 + 1; num3 < 10; num3++)
 		{
-			putchar(num + '0');
-			putchar(num2 + '0');
-			putchar(num3 + '0');
+			putchar(num);
+			putchar(num2);
+			putchar(num3);
 			if (num ! = '9' || num2 != '8' || num3 != '7')
 			{
 				putchar(',');
