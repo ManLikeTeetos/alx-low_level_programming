@@ -2,5 +2,6 @@
 1-last_digit.c : Print the last digit stored in the n variable
 2-print_alphabet.c : print all the alphabet in small letters
 3-print_alphabets.c : Print all the alphabet in small letters then in capital letters
+4-print_alphabt.c : Print all the alphabet in small letters except q and e
  
 
