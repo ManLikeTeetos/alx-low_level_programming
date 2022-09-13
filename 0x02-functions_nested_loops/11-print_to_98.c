@@ -19,7 +19,7 @@ void print_to_98(int n)
 				printf("%d\n", l);
 			}
 		}
-	else if (n >=98)
+	else if (n >= 98)
 		for (m = n; m >= 98; m--)
 		{
 			if (m != 98)
