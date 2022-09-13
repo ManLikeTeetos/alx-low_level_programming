@@ -10,6 +10,7 @@ int main(void)
 
 	l = 1;
 	m = 2;
+	new = 0;
 
 	for (i = 1; i <= 33; ++i)
 	{
