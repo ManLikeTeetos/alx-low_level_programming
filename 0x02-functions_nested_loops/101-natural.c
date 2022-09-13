@@ -22,7 +22,7 @@ int main(void)
 			num2 = num2 + i;
 		}
 	}
-	num3 = num1 + sum2;
+	num3 = num1 + num2;
 	printf("%lu\n", num3);
 	return (0);
 }
