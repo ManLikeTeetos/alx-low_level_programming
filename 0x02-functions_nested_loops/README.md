@@ -4,4 +4,4 @@
 3-islower.c : Return 1 if input is lowercase or zero if it is not
 4-isalpha.c : Returns 1 if input is a letter, lowercase or uppercase and zero if not
 5-sign.c : Prints the signs of a number inputed
-
+6-abs.c : Returns the absolute value of an integer
