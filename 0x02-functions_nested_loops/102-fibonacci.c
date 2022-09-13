@@ -21,7 +21,7 @@ int main(void)
 		}
 		new = m + n;
 		m = n;
-		n = new
+		n = new;
 	}
 	return (0);
 }
