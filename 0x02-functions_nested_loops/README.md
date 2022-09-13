@@ -5,3 +5,5 @@
 4-isalpha.c : Returns 1 if input is a letter, lowercase or uppercase and zero if not
 5-sign.c : Prints the signs of a number inputed
 6-abs.c : Returns the absolute value of an integer
+7-print_last_digit.c : Returns the last digit of a number
+
