@@ -11,7 +11,6 @@ int main(void)
 	n = 2;
 	
 	printf("%lu", m);
-
 	for (l = 1; l < 91; l++)
 	{
 		printf(", %lu", n);
@@ -25,12 +24,12 @@ int main(void)
 
 	for (l = 92; l < 99; ++l)
 	{
-			printf(", %lu", n_one + (n_two / 1000000000));
-			printf("%lu", n_two % 1000000000);
-			n_one = n_one + m_one;
-			m_one = n_one - m_one;
-			n_two = n_two + m_two;
-			m_two = n_two - m_two;
+		printf(", %lu", n_one + (n_two / 1000000000));
+		printf("%lu", n_two % 1000000000);
+		n_one = n_one + m_one;
+		m_one = n_one - m_one;
+		n_two = n_two + m_two;
+		m_two = n_two - m_two;
 	}
 	printf("\n");
 	return (0);
