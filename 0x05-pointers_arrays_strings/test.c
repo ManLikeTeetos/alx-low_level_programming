@@ -1,16 +1,16 @@
 #include "main.h"
-#include "4-print_rev.c"
+#include "7-puts_half.c"
 
 /**
- *main - check the code
+ * main - check the code
  *
- *Return: Always 0.
+ * Return: Always 0.
  */
 int main(void)
 {
     char *str;
 
-    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-    print_rev(str);
+    str = "0123456789";
+    puts_half(str);
     return (0);
 }
