@@ -8,6 +8,9 @@
 int _strlen(char *s)
 {
 int d;
-d = strlen(*s);
+char arr[];
+
+strncpy(arr, s);
+d = strlen(arr);
 return (d);
 }
