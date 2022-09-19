@@ -9,9 +9,10 @@
 int _strlen(char *s)
 {
 int d;
-char arr[];
+char arr[99];
 
-strncpy(arr, s);
+strncpy(arr, s, 99);
+arr[99] = 0;
 d = strlen(arr);
 return (d);
 }
