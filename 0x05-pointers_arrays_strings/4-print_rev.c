@@ -10,7 +10,11 @@ void print_rev(char *s)
 int i, j, len;
 
 i = 0;
-i = strlen(s);
+
+while (s[i] != '\0')
+{
+i++;
+}
 
 len = i
 
