@@ -10,42 +10,43 @@
  */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-int j1, j2, a, b, c, l, m, n;
+int j1, j2, op, bg, dr1, dr2, add = 0;
 
 j1 = strlen(n1);
 j2 = strlen(n2);
 
-if ((j1 > size_r) || (j2 > size_r))
-{
-return (0);
-}
-m = 0;
-for (a -= 1, b -= 1, c = 0; c < size_r - 1; a--, b--, c++)
-{
-n = m;
-if (a >= 0)
-{
-n += n1[a] - '0';
-}
-if (b >= 0)
-{
-n += n2[b] - '0';
-}
-if (a < 0 && b < 0 && n == 0)
-{
-break;
-}
-m = n / 10;
-r[c] = n % 10 + '0';
-}
-	r[c] = '\0';
-	if (a >= 0 || b >= 0 || m)
+if (j1 >= j2)
+		bg = j1;
+	else
+		bg = j2;
+	if (size_r <= bg + 1)
 		return (0);
-	for (c -= 1, l = 0; l < c; c--, l++)
+	r[bg + 1] = '\0';
+	j1--, j2--, size_r--;
+	dr1 = *(n1 + j1) -48, dr2 = *(n2 + j2) -48;
+	while (bg >= 0)
 	{
-		m = r[c];
-		r[c] = r[l];
-		r[l] = m;
+		op = dr1 + dr2 + add;
+		if (op >= 10)
+			add = op / 10;
+		else
+			add = 0;
+		if (op > 0)
+		*(r + bg) = (op % 10) + 48;
+		else
+			*(r + bg) = '0';
+		if (j1 > 0)
+			j1--, dr1 = *(n1 + j1) -48;
+		else
+			dr1 = 0;
+		if (j2 > 0)
+			j2--, dr2 = *(n2 + j2) -48;
+		else
+			dr2 = 0;
+		bg--, size_r--;
 	}
-	return (r);
+	if (*(r) == '0')
+		return (r + 1);
+	else
+		return (r);
 }
