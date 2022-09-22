@@ -11,7 +11,7 @@
  */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-int j1, j2, m, d, o, p, q, n;
+int j1, j2, a, b, c, l, m, n;
 
 
 j1 = strlen(n1);
@@ -21,31 +21,35 @@ if ((j1 > size_r) || (j2 > size_r))
 {
 return (0);
 }
-q = 0;
-for (q -= 1, d -= 1, o = 0; o < size_r - 1; q--, d--, o++)
+m = 0;
+for (a -= 1, b -= 1, c = 0; c < size_r - 1; a--, b--, c++)
 {
-n = q;
-if (q >= 0)
-n += n1[q] - '0';
-if (n >= 0)
-n += n2[d] - '0';
-if (q < 0 && d < 0 && n == 0)
+n = m;
+if (a >= 0)
+{
+n += n1[a] - '0';
+}
+if (b >= 0)
+{
+n += n2[b] - '0';
+}
+if (a < 0 && b < 0 && n == 0)
 {
 break;
 }
-q = n / 10;
-r[o] = n % 10 + '0';
+m = n / 10;
+r[c] = n % 10 + '0';
 }
-r[o] = '\0';
-if (q >= 0 || d >= 0 || q)
-return (0);
-for (o -= 1, p = 0; p < o; o--, p++)
-{
-q = r[o];
-r[o] = r[p];
-r[p] = q;
-}
+	r[c] = '\0';
+	if (a >= 0 || b >= 0 || m)
+		return (0);
+	for (c -= 1, l = 0; l < c; c--, l++)
+	{
+		m = r[c];
+		r[c] = r[l];
+		r[l] = m;
+	}
 
-return (r);
+	return (r);
 
 }
