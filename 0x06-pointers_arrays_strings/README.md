@@ -6,3 +6,5 @@
 5-string_toupper.c : Converts lowercase letters to upper case letters <br/>
 6-cap_string.c : Capitalize the first letter in a word <br/>
 7-leet.c : a function that encodes a string into 1337. <br/>
+100-rot13.c : A function that encodes a string using rot13 <br/>
+
