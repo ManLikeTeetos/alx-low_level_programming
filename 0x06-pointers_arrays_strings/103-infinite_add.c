@@ -21,6 +21,7 @@ if ((j1 > size_r) || (j2 > size_r))
 {
 return (0);
 }
+q = 0;
 for (q -= 1, d -= 1, o = 0; o < size_r - 1; q--, d--, o++)
 {
 n = q;
