@@ -8,3 +8,4 @@
 7-leet.c : a function that encodes a string into 1337. <br/>
 100-rot13.c : A function that encodes a string using rot13 <br/>
 101-print_number.c : A function that prints number using putchar <br/>
+102-magic.c : Add a line to a code to print the expected value <br/>
