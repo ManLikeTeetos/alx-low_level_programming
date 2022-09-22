@@ -6,13 +6,11 @@
  *@n2: Second number
  *@r: buffer that the function will use to store the result
  *@size_r: is the buffer size
- *Return: returns the pointer
- *of the summation or zero if its greater than buffer
+ *Return: returns the summation or zero if its greater than buffer
  */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 int j1, j2, a, b, c, l, m, n;
-
 
 j1 = strlen(n1);
 j2 = strlen(n2);
@@ -49,7 +47,5 @@ r[c] = n % 10 + '0';
 		r[c] = r[l];
 		r[l] = m;
 	}
-
 	return (r);
-
 }
