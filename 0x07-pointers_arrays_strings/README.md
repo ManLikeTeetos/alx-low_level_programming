@@ -1,1 +1,2 @@
-0-memset.c : a function that fills memory with a constant byte <br/>
+[0-memset.c](./0-memset.c) : a function that fills memory with a constant byte <br/>
+[1-memcpy.c](./1-memcpy.c) : a function that copies memory area. <br/>
