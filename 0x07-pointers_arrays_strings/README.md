@@ -5,3 +5,4 @@
 [4-strpbrk.c](./4-strpbrk.c) : Searches the string of any byte. <br/>
 [5-strstr.c](./5-strstr.c) : locates a substring <br/>
 [7-print_chessboard.c](./7-print_chessboard.c) : Prints chessboard <br/>
+[8-print_diagsums.c](./8-print_diagsums.c) : prints the sum of the two diagonals of a square matrix of integers. <br/>
