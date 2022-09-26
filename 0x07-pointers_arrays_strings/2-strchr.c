@@ -9,8 +9,15 @@
 */
 char *_strchr(char *s, char c)
 {
-char *p
-p = NULL
+int p
+p = 0;
 p = strchr(s, c);
+if (p != 0)
+{
 return (p);
+}
+else
+{
+return (NULL);
+}
 }
