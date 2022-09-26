@@ -9,12 +9,11 @@
 */
 char *_strchr(char *s, char c)
 {
-int p;
-
-p = 0;
+char *p;
 
 p = strchr(s, c);
-if (p != 0)
+
+if (strchr(s, c) != 0)
 {
 return (p);
 }
