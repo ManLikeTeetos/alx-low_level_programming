@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include "2-strchr.c"
+#include "5-strstr.c"
 
 /**
  * main - check the code
@@ -9,14 +9,11 @@
  */
 int main(void)
 {
-    char *s = "hello";
-    char *f;
+    char *s = "hello, world";
+    char *f = "world";
+    char *t;
 
-    f = _strchr(s, 'l');
-
-    if (f != NULL)
-    {
-        printf("%s\n", f);
-    }
+    t = _strstr(s, f);
+    printf("%s\n", t);
     return (0);
 }
