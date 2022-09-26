@@ -10,7 +10,9 @@
 char *_strchr(char *s, char c)
 {
 int p;
+
 p = 0;
+
 p = strchr(s, c);
 if (p != 0)
 {
