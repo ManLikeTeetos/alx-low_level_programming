@@ -2,3 +2,4 @@
 [1-memcpy.c](./1-memcpy.c) : a function that copies memory area. <br/>
 [2-strchr.c](./2-strchr.c) : it locates a character in a string. <br/>
 [3-strspn.c](./3-strspn.c) : Gets the length of a prefix substring. <br/>
+[4-strpbrk.c](./4-strpbrk.c) : Searches the string of any byte. <br/>
