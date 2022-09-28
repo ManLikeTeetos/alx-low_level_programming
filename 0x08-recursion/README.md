@@ -3,3 +3,4 @@
 [2-strlen_recursion.c](./2-strlen_recursion.c) : a function that returns the length of a string. <br/>
 [3-factorial.c](./3-factorial.c) : a function that returns the factorial of a given number. <br/>
 [4-pow_recursion.c](./4-pow_recursion.c) : a function that returns the value of x raised to the power of y. <br/>
+[5-sqrt_recursion.c](./5-sqrt_recursion.c) : a function that returns the natural square root of a number. <br/>
