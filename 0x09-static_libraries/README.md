@@ -1,0 +1,1 @@
+[libmy.a](./libmy.a) : create a static library
