@@ -8,7 +8,7 @@
  *
  * Return: return counted string number
  */
-int counter (char *s)
+int counter(char *s)
 {
 	int flag, c, w;
 
