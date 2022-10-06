@@ -1,0 +1,4 @@
+git:
+	git add .
+	git commit -m "C - More malloc, free"
+	git push
