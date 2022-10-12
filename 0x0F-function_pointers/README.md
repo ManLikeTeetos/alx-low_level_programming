@@ -5,3 +5,4 @@
 [3-main.c](./3-main.c) : contain the main function only <br/>
 [3-op_functions.c](./3-op_functions.c) : This file contains the 5 functions used by the program <br/>
 [3-get_op_func.c](./3-get_op_func.c) : contain the function that selects the correct function to perform the operation asked by the user <br/>
+[100-main_opcodes.c](./100-main_opcodes.c) : a program that prints the opcodes of its own main function. <br/>
