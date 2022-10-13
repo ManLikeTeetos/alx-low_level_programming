@@ -1,0 +1,4 @@
+git:
+	git add .
+	git commit -m "C - Variadic functions"
+	git push
