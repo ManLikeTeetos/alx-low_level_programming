@@ -2,3 +2,4 @@
 [1-create_file.c](./1-create_file.c) : a function that creates a file. <br/>
 [2-append_text_to_file.c](./2-append_text_to_file.c) : a function that appends text at the end of a file. <br/>
 [3-cp.c](./3-cp.c) : a program that copies the content of a file to another file. <br/>
+[100-elf_header.c](./100-elf_header.c) : a program that displays the information contained in the ELF header at the start of an ELF file. <br/>
