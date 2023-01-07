@@ -1,0 +1,4 @@
+git:
+	git add .
+	git commit -m "C - Hash tables"
+	git push
